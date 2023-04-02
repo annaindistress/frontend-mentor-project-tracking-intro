@@ -1,0 +1,24 @@
+.header__toggler {
+  background-image: url("/images/icon-hamburger.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header--open .header__toggler {
+  background-image: url("/images/icon-close.svg") !important;
+}
+
+.header__navigation {
+  visibility: hidden;
+}
+
+.header--open .header__navigation {
+  visibility: visible;
+}
+
+@media (min-width: 1024px) {
+
+  .header__navigation {
+    visibility: visible;
+  }
+}

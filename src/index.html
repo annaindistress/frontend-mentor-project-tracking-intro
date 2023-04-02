@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Project tracking intro</title>
+  </head>
+  <body class="font-sans text-blue page text-sm">
+    <header class="relative flex justify-between items-center max-w-screen-xl mx-auto mb-6 lg:mb-16 py-9 lg:py-16 px-8 lg:px-[85px] header">
+      <a>
+        <img class="lg:w-8 lg:h-8" src="/images/logo.svg" alt="Project tracking logo" width="24" height="24">
+      </a>
+      <button class="w-6 h-6 lg:hidden header__toggler" type="button">
+        <span class="sr-only">Show/hide navigation</span>
+      </button>
+      <nav class="absolute lg:static top-[100px] inset-x-8 bg-white lg:bg-transparent rounded-[3px] lg:rounded-none shadow-[0_5px_10px_rgba(0,0,0,0.15)] lg:shadow-none header__navigation">
+        <ul class="flex flex-col lg:flex-row py-3 px-6 lg:p-0 font-bold text-base lg:text-sm tracking-wider lg:tracking-wide uppercase text-center">
+          <li class="">
+            <a class="block py-3 lg:py-0 lg:px-5 hover:underline focus:underline" href="#">Product</a>
+          </li>
+          <li class="">
+            <a class="block py-3 lg:py-0 lg:px-5 hover:underline focus:underline" href="#">Features</a>
+          </li>
+          <li class="">
+            <a class="block pt-3 pb-6 lg:py-0 lg:ps-5 lg:pe-10 hover:underline focus:underline" href="#">Pricing</a>
+          </li>
+          <li class="before:content-[''] before:absolute before:top-1.5 before:hidden lg:before:block before:w-1.5 before:h-1.5 before:bg-blue-lightest before:rounded-full relative border-t lg:border-0 border-blue-lightest">
+            <a class="block pt-6 pb-3 lg:py-0 lg:ps-10 lg:pe-5 hover:underline focus:underline text-blue-light" href="#">Login</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

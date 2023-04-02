@@ -1,5 +1,14 @@
 @import './fonts.css';
+@import './components/page.css';
+@import './components/header.css';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --gray: 210, 26%, 93%;
+  --blue: 231, 30%, 20%;
+  --orange: 0, 100%, 68%;
+  --red: 0, 47%, 51%;
+}
