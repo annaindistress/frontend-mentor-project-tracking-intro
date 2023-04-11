@@ -16,14 +16,14 @@
         <span class="sr-only">Show/hide navigation</span>
       </button>
       <nav class="absolute lg:static top-[100px] inset-x-8 bg-white lg:bg-transparent rounded-[3px] lg:rounded-none shadow-[0_5px_10px_rgba(0,0,0,0.15)] lg:shadow-none header__navigation">
-        <ul class="flex flex-col lg:flex-row py-3 px-6 lg:p-0 font-bold text-base lg:text-sm tracking-wider lg:tracking-wide uppercase text-center">
-          <li class="">
+        <ul class="flex flex-col lg:flex-row py-3 px-6 lg:p-0 font-bold text-base lg:text-sm tracking-wide lg:tracking-normal uppercase text-center">
+          <li>
             <a class="block py-3 lg:py-0 lg:px-5 hover:underline focus:underline" href="#">Product</a>
           </li>
-          <li class="">
+          <li>
             <a class="block py-3 lg:py-0 lg:px-5 hover:underline focus:underline" href="#">Features</a>
           </li>
-          <li class="">
+          <li>
             <a class="block pt-3 pb-6 lg:py-0 lg:ps-5 lg:pe-10 hover:underline focus:underline" href="#">Pricing</a>
           </li>
           <li class="before:content-[''] before:absolute before:top-1.5 before:hidden lg:before:block before:w-1.5 before:h-1.5 before:bg-blue-lightest before:rounded-full relative border-t lg:border-0 border-blue-lightest">
@@ -32,7 +32,27 @@
         </ul>
       </nav>
     </header>
-
+    <main>
+      <h1 class="sr-only">Project tracking intro component</h1>
+      <section class="lg:relative mb-24 lg:mb-0 lg:pb-32 lg:pt-9 overflow-hidden">
+        <h2 class="sr-only">About our app</h2>
+        <img class="lg:absolute lg:top-0 lg:left-[calc(50%+17px)] block min-w-[135%] lg:min-w-[970px] ms-3 lg:ms-0 mb-20 lg:mb-0" src="/images/illustration-devices.svg" alt="Our app works great on mobile and desktop devices" width="482" height="239">
+        <div class="max-w-screen-xl mx-auto px-8 lg:px-[85px]">
+          <div class="lg:max-w-[470px]">
+            <p class="flex items-center mb-4 uppercase">
+              <span class="me-4 py-1 px-2.5 text-white bg-blue rounded-xl">New</span>
+              <span class="tracking-widest opacity-50">Monograph dashboard</span>
+            </p>
+            <p class="mb-4 lg:mb-8 text-lg lg:text-xl font-bold uppercase">Powerful insights into your team</p>
+            <p class="lg:me-48 mb-10 lg:mb-16 font-body text-base opacity-75">Project planning and time tracking for agile teams</p>
+            <p class="flex items-center text-xs lg:text-sm uppercase">
+              <a class="me-5 lg:me-6 px-6 lg:px-8 py-3 lg:py-3.5 font-bold tracking-normal whitespace-nowrap text-white bg-orange hover:bg-orange-light focus:bg-orange-light rounded" href="#">Schedule a demo</a>
+              <span class="tracking-wider lg:tracking-widest opacity-50">to see a live preview</span>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="./scripts/script.js"></script>
   </body>
 </html>
